@@ -6,6 +6,12 @@
   <name>Boubyan</name>
   <description>Boubyan redisAi</description>
 
+  <!-- Set the Java version for your project -->
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source> <!-- Update to your desired source level (e.g., 1.8 for Java 8) -->
+    <maven.compiler.target>1.8</maven.compiler.target> <!-- Update to your desired target level (e.g., 1.8 for Java 8) -->
+  </properties>
+
   <dependencies>
     <!-- Add Redis Jedis dependency -->
     <dependency>
